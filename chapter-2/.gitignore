@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+output/
+# .claude/settings.local.json  ← 커밋 대상 (MCP, 훅 설정 포함)
+
+# demo 프로젝트 민감/불필요 파일
+demo/.env
+demo/credentials/
+demo/data/
+demo/frontend/node_modules/
+demo/frontend/dist/
+demo/frontend/.vite/
+demo/.claude/settings.local.json

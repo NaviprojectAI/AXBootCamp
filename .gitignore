@@ -1,0 +1,13 @@
+# 대용량 미디어 파일
+*.mp4
+*.m4a
+*.mov
+*.avi
+*.mkv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 3회차 (준비 중 — 커밋 보류)
+chapter-3/

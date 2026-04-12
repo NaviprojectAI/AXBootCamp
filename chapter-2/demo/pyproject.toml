@@ -1,0 +1,27 @@
+[project]
+name = "koneps-bid-search"
+version = "0.1.0"
+description = "나라장터 입찰공고 자동 검색 및 Google Sheets 연동 시스템"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "uvicorn[standard]>=0.32.0",
+    "sqlmodel>=0.0.22",
+    "httpx>=0.28.0",
+    "gspread>=6.1.0",
+    "google-auth>=2.36.0",
+    "playwright>=1.49.0",
+    "pydantic-settings>=2.7.0",
+    "python-dotenv>=1.0.0",
+    "aiosqlite>=0.20.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.24.0",
+]
+
+[build-system]
+requires = ["setuptools>=75.0"]
+build-backend = "setuptools.build_meta"
